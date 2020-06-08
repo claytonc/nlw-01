@@ -1,0 +1,23 @@
+#error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0 ,0 ,0 , 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+}
+
+#error > span {
+  color: rgb(211, 22, 22);
+  font-size: 5em;
+}
+
+#error > h1,
+#error > p {
+  color: #F0F0F5;
+}
